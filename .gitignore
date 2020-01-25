@@ -9,13 +9,24 @@ DS_Store?
 ## Building
 node_modules/
 dist/
+build/
 .cache
 npm-debug.log*
+yarn.lock*
 yarn-debug.log*
 yarn-error.log*
+
+# sass
+.sass-cache/
+*.css.map
+
+# Logs
+logs
+*.log
 
 ## Other
 Desktop.ini
 Thumbs.db
 ._*
+.env
 tmp/
